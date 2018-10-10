@@ -6,10 +6,16 @@
 </head>
 <body>
 <script>
-    let str = '';
-    for (let i = 1; i <= 20; i++) {
-        str += 'x';
-        document.write(str + '<br>');
+    function trimmer(num) {
+        let str = '';
+for (let i=1;i<=num;i++){
+    str+=num;
+}
+return str;
+    }
+
+    for (let i=1;i<=9;i++){
+        document.write(trimmer(i)+'<br>');
     }
 </script>
 </body>
